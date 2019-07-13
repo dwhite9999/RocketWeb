@@ -358,6 +358,15 @@
 
 
 /*------------------------------------------------------------------
+	H4 Styles
+-------------------------------------------------------------------*/
+.rocket-h4 {
+    padding-top: 100px;
+}
+
+
+
+/*------------------------------------------------------------------
 	4. Info Styles
 -------------------------------------------------------------------*/
 #info{
@@ -563,6 +572,20 @@
     width: 100%;
     max-width: 518px;
 }
+
+/*------------------------------------------------------------------
+      Example website styles
+-------------------------------------------------------------------*/
+.example-sites {
+    display: flex;
+    justify-content: space-around;
+}
+
+.site-images {
+    max-width: 200px;
+    max-height: 100px;
+}
+
 
 
 /*------------------------------------------------------------------
@@ -986,6 +1009,7 @@
     background-position: 0% 0%;
     
     transition: all 0.3s cubic-bezier(1, .02, 0, .99) 0.0s;
+    border-radius: 7px;
 }
 
 #footer .contact-box .hroc{
@@ -993,6 +1017,7 @@
     margin-right: 10px;
     font-size: 35px;
     vertical-align: middle;
+    
 }
 #footer .contact-box [class*="fa"]{
     color: #3a9dc2;
@@ -1016,6 +1041,9 @@
     color: #ffffff;
 }
 
+.copyright {
+    padding-top: 30px;
+}
 
 /*------------------------------------------------------------------
 	11. Responsive Styles
