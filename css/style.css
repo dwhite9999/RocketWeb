@@ -94,6 +94,11 @@
     margin-top: 80px;
 }
 
+.container4 {
+    margin-top: -90px;
+    padding-left: 20px;
+}
+
 .navbar-default .navbar-nav>li>a.chat-button{
     padding: 7px 18px;
     background-color: #79d156;
@@ -579,6 +584,12 @@
 .example-sites {
     display: flex;
     justify-content: space-around;
+    margin-top: -80px;
+    background-color: #3a9dc2
+}
+
+.sample-sites {
+    margin-bottom: -30px;
 }
 
 .site-images {
@@ -586,6 +597,15 @@
     max-height: 100px;
 }
 
+.texting-font {
+    font-size: 7px;
+    margin-left: 20px;
+}
+
+.slide-site {
+    max-height: 100px;
+    max-width: 200px;
+}
 
 
 /*------------------------------------------------------------------
